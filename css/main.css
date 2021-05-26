@@ -42,8 +42,10 @@ html {
 /* @COVER_BANNER */
 /* ********** */
 .banner {
+  /*banner ocupa toda la pantalla*/
   width: 100%;
   border-top-right-radius: 150px;
+  /* el border radius no me lo pongas en desktop, por eso ponemos un mediaquery y damos border 0px*/
 }
 @media only screen and (min-width: 1000px) {
   .banner {
