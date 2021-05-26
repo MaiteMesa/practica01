@@ -1,0 +1,63 @@
+@charset "UTF-8";
+/* **************************** */
+/* IMPORTAR PARCIALES PARA COMPILAR */
+/* **************************** */
+/* @RESET */
+/* ********** */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* @VARIABLES */
+/* ********** */
+body {
+  background-color: #D0EEFF;
+}
+
+/* @TIPOGRAFÍA */
+/* ********** */
+@font-face {
+  font-family: "";
+  src: url(../../font/.woff2) format("woff2"), url(../../font/.woff) format("woff");
+}
+html {
+  font-size: 16px;
+  font-family: "", sans-serif;
+  color: black;
+}
+
+/* @MIXIN */
+/* ********** */
+/* @BOTONES */
+/* ********** */
+/* @COVER_BANNER */
+/* ********** */
+.banner {
+  width: 100%;
+  border-top-right-radius: 150px;
+}
+@media only screen and (min-width: 1000px) {
+  .banner {
+    border-radius: 0px;
+  }
+}
+
+/* @GRIDS */
+/* ********** */
+/* @FORMULARIOS */
+/* ********** */
+/* @NAVEGACIÓN */
+/* ********** */
+/* @HOME */
+/* ********** */
+/* @CONTACTAR */
+/* ********** */
